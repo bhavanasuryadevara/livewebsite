@@ -1,0 +1,36 @@
+/* BannerComponent.css */
+.content11 {
+    min-height: 100vh; /* Ensure the banner covers the full viewport height */
+    width: 100%;
+    background-image: url('./Images/bannerDesktop.avif');  
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content to the bottom */
+    padding: 20px; /* Adjust padding as needed */
+    overflow: hidden; /* Hide overflow to remove scrollbar */
+    color: aliceblue;
+}
+
+.content11 h1 {
+    margin-bottom: 10px; /* Adjust margin-bottom as needed */
+    font-style: bold;
+}
+
+.content11 p {
+    margin-bottom: 10px; /* Adjust margin-bottom as needed */
+}
+
+.custom-button11 {
+    background-color: #ff0051;
+    color: #fff;
+    border: none;
+    padding: 10px 30px; /* Adjust padding as needed */
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default underline for anchor tags */
+}
+
+.custom-button11:hover {
+    background-color: #d40046; /* Change background color on hover */
+}
